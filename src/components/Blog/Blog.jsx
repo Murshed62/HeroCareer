@@ -45,7 +45,9 @@ const Blog = () => {
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title">
-            What is UsMemory and what is it used for?
+            What is useMemo and what is it used for?
+            <p>useMemo is a hook in React that allows you to optimize the performance of your application by memoizing the results of a function call. It takes two arguments: a function and an array of dependencies. The function is called every time the component renders, but the result is only recalculated if one of the dependencies has changed.</p>
+            <p>Using useMemo can improve the performance of your application by reducing the number of times expensive computations are executed. However, it's important to use useMemo judiciously, since memoizing values unnecessarily can also lead to wasted memory and increased complexity.</p>
           </h2>
         </div>
       </div>
