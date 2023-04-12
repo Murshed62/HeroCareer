@@ -27,6 +27,7 @@ const Blog = () => {
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title">what is custom hook in react ? </h2>
+          <p>A custom hook is a JavaScript function that uses one or more of the existing React hooks to encapsulate a particular piece of functionality, making it reusable across multiple components. Custom hooks are a way to abstract away complex logic into a reusable function, which can then be imported and used just like any other hook in React.</p>
         </div>
       </div>
       <div className="card w-96 bg-base-100 shadow-xl">
