@@ -35,6 +35,11 @@ const Blog = () => {
           <h2 className="card-title">
             What is useRef and what is it used for?
           </h2>
+          <p>useRef is a hook in React that provides a way to store mutable values or references to DOM elements. It returns a mutable ref object that can be used to persist data across component renders without triggering a re-render.</p>
+          <p>Here are some common use cases for useRef:</p>
+          <p>1. Storing previous values: You might need to compare the current value of a variable to its previous value. useRef allows you to store the previous value of a variable between renders.</p>
+          <p>2. Storing references to DOM elements: When working with forms or animations, you might need to store references to DOM elements. useRef allows you to do this without causing unnecessary re-renders.</p>
+          <p>3. Storing unchanging values: If you have a value that needs to persist between renders but doesn't need to be part of your component's state, you can store it in a useRef variable.</p>
         </div>
       </div>
       <div className="card w-96 bg-base-100 shadow-xl">
