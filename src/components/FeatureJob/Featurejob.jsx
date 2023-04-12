@@ -18,7 +18,7 @@ const FeatureJob = ({job}) => {
             <button className="ml-10 btn-borderStyle text-2xl mt-5">{jobCategoryTimes}</button>
             <button className="mx-5 btn-borderStyle text-2xl">{jobCategoryTime}</button> <br />
          <div className='flex mt-5 ml-10'>
-         <MapPinIcon class="h-6 w-6 text-blue-500" />  <span>{addrs}</span><CurrencyDollarIcon class="h-6 w-6 ml-20 text-black" /><span>{salary}</span><br />
+         <MapPinIcon className="h-6 w-6 text-blue-500" />  <span>{addrs}</span><CurrencyDollarIcon className="h-6 w-6 ml-20 text-black" /><span>{salary}</span><br />
          </div>
             <button onClick={()=>navigate(`/job/${id}`)} className="btn-viewDetails btn-navbar ml-10 mb-2 mt-5">View Details</button>
            </div>

@@ -13,7 +13,6 @@ const JobDetails = () => {
   const dynamic = useParams();
   const dynamicId = dynamic.id;
   const data = useLoaderData();
-  console.log(data);
   useEffect(() => {
     const detailsData = data.find((dt) => dt.id === dynamicId);
     setDetails(detailsData);
@@ -60,26 +59,26 @@ const JobDetails = () => {
           <hr />
 
           <div className="flex items-center ml-5">
-            <CurrencyDollarIcon class="h-6 w-6 primary-color" />{" "}
+            <CurrencyDollarIcon className="h-6 w-6 primary-color" />{" "}
             <p className=" p-2">Salary :{salary}</p>
           </div>
           <div className="flex items-center ml-5">
-            <CalendarIcon class="h-6 w-6 primary-color" />{" "}
+            <CalendarIcon className="h-6 w-6 primary-color" />{" "}
             <p className=" p-2">Job Title : {jobTitle}</p>
           </div>
 
           <h1 className="mb-2 p-5 text-2xl font-bold">Contact Information</h1>
           <hr />
           <div className="flex items-center ml-5">
-            <PhoneIcon class="h-6 w-6 primary-color" />{" "}
+            <PhoneIcon className="h-6 w-6 primary-color" />{" "}
             <p className=" p-2">Phone :{phone}</p>
           </div>
           <div className="flex items-center ml-5">
-            <EnvelopeIcon class="h-6 w-6 primary-color " />
+            <EnvelopeIcon className="h-6 w-6 primary-color " />
             <p className=" p-2">Email :{email}</p>
           </div>
           <div className="flex items-center ml-5">
-            <MapPinIcon class="h-6 w-6 primary-color" />{" "}
+            <MapPinIcon className="h-6 w-6 primary-color" />{" "}
             <p className=" p-2">Address :{location}</p>
           </div>
           <button onClick={()=>handleApplyBtn(details)} className="applyBtnStyle ">Apply Now</button>

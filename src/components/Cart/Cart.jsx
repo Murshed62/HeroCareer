@@ -18,8 +18,8 @@ const Cart = ({data}) => {
           </button>
           <button className="mx-5 btn-borderStyle text-2xl primary-color ">{jobCategoryTimes}</button> <br />
           <div className="flex mt-5 ml-10">
-            <MapPinIcon class="h-6 w-6 text-blue-500" /> <span>{addrs}</span>
-            <CurrencyDollarIcon class="h-6 w-6 ml-20 text-black" />
+            <MapPinIcon className="h-6 w-6 text-blue-500" /> <span>{addrs}</span>
+            <CurrencyDollarIcon className="h-6 w-6 ml-20 text-black" />
             <span>{salary}</span>
             <br />
           </div>

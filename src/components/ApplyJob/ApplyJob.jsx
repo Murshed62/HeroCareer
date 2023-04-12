@@ -33,8 +33,8 @@ const ApplyJob = () => {
         <div className="flex flex-col   p-6 ">
           <div className="text-end">
             <select onChange={handleJob} value={remoteData} name="" id="">
-              <option value="remote">Remote</option>
-              <option value="onsite">Onsite</option>
+              <option value="remote">Onsite</option>
+              <option value="onsite">Remote</option>
             </select>
           </div>
           <ul className="flex flex-col">
