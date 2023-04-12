@@ -1,0 +1,30 @@
+[
+    {
+        "id": "01",
+        "name": "MERN Stack Dev",
+        "Time": "300 Jobs Available",
+        "img": "https://www.topsinfosolutions.com/wp-content/uploads/2019/01/info-graphics.png"
+       
+    },
+    {
+        "id": "02",
+        "name": "MEAN Stack Dev",
+        "Time": "250 Jobs Available",
+        "img": "https://techaffinity.com/blog/wp-content/uploads/2019/12/Mean-Stack-Development-TechAffinity-1024x576.jpg"
+       
+    },
+    {
+        "id": "03",
+        "name": "Marketing & Sales",
+        "Time": "200 Jobs Available",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIYO0oXmeqLLycD1TIMgQVeuZ1FOXZEjv1pnPvkfPPkWpAqVpgJUp1OnM-5eBxrYMyk1c&usqp=CAU"
+       
+    },
+    {
+        "id": "04",
+        "name": "Engineering Job",
+        "Time": "400 Jobs Available",
+        "img": "https://www.guru99.com/images/1/093019_0641_WhatisSoftw1.png"
+       
+    }
+]
