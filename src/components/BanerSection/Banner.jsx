@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import JobCategoryList from "../JobCategory/JobCategoryList";
 import FeatureJob from "../FeatureJob/FeatureJob";
 import bannerImg from "../../assets/All Images/banner.png";
+import './Banner.css'
 
 const Banner = () => {
   const jobList = useLoaderData();
@@ -21,14 +22,14 @@ const Banner = () => {
   };
 
   return (
-    <div>
+    <div className="res-design-container">
       <div className="md:flex md:justify-between md:items-center md:mx-20">
         <div>
-          <h1 className="banner-title common-margin ">
+          <h1 className="banner-title common-margin res-design-banner-heading mt-48">
             One Step <br /> Closer To Your <br />{" "}
             <span className="common-color">Dream Job</span>
           </h1>
-          <p className=" common-margin">
+          <p className=" common-margin res-design-para mb-5">
             Explore thousands of job opportunities with all the <br />{" "}
             information you need. Its your future. Come find it. Manage all{" "}
             <br /> your job application from start to finish.
@@ -37,7 +38,7 @@ const Banner = () => {
             Get Started
           </button>
         </div>
-        <div className="banner-img">
+        <div className="banner-img res-design-banner-pic">
           <img src={bannerImg} alt="" />
         </div>
       </div>
@@ -45,19 +46,19 @@ const Banner = () => {
         <h1 className=" common-margin mt-5 job-list-title text-center">
           Job Category List{" "}
         </h1>
-        <p className="text-2xl mb-16 mt-10 4 text-center">
+        <p className="text-2xl mb-16 mt-10 4 text-center res-design-para-two">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
       </div>
 
-      <div className="container grid grid-cols-1 md:grid-cols-4 m-12 w-9/12 mx-auto">
+      <div className="container grid grid-cols-1 md:grid-cols-4 m-12 w-9/12 mx-auto res-design-small-card">
         {jobList.map((job) => (
           <JobCategoryList key={job.id} job={job}></JobCategoryList>
         ))}
       </div>
       <h1 className="font-bold text-center text-5xl mt-20">Featured Jobs</h1>
-      <p className="text-center mt-4 text-2xl ">
+      <p className="text-center mt-4 text-2xl res-design-para-two">
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>

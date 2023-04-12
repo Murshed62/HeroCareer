@@ -15,7 +15,10 @@
   font-size: 40px;
 }
 .banner-img {
-  width: 700px;
+  width: 800px;
+}
+.banner-img img{
+ width: 100%;
 }
 .banner-container {
   margin-top: 83px;

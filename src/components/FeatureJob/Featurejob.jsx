@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapPinIcon ,CurrencyDollarIcon} from '@heroicons/react/24/solid'
 import { useNavigate } from 'react-router-dom';
+import './FeatureJob.css'
 
 const FeatureJob = ({job}) => {
     const navigate=useNavigate();
@@ -11,8 +12,8 @@ const FeatureJob = ({job}) => {
     return (
         <>
           
-           <div  className="cardstyle mt-20 sm:ml-28 primary-shadaw">
-            <img className="featureJobImgStyle" src={ComImg} alt="" />
+           <div  className="cardstyle mt-20 sm:ml-28 primary-shadaw res-design-big-card">
+            <img className="featureJobImgStyle res-design-big-pic" src={ComImg} alt="" />
             <h3 className='mt-3 text-2xl font-bold ml-10'>{jobTitle}</h3>
             <p  className='mt-3 ml-10'>{ComName}</p> 
             <button className="ml-10 btn-borderStyle text-2xl mt-5">{jobCategoryTimes}</button>

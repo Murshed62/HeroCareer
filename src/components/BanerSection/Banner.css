@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+   .res-design-container{
+    
+   }
+   .res-design-banner-heading{
+    font-size: 30px;
+    width: 100%;
+    margin: auto;
+   }
+   .res-design-para{
+    margin:5px 0px;
+   }
+   .res-design-banner-pic{
+    width: 400px;
+   }
+   .res-design-para-two{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+   }
+   .res-design-small-card{
+    
+   }
+  }

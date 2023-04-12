@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+.res-design-big-card{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.res-design-big-pic{
+    width: 240px;
+}
+}
