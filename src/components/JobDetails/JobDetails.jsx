@@ -17,7 +17,7 @@ const JobDetails = () => {
   useEffect(() => {
     const detailsData = data.find((dt) => dt.id === dynamicId);
     setDetails(detailsData);
-    // console.log(detailsData);
+    
   }, []);
   const {
     jobResponsibility,

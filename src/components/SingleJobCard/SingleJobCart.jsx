@@ -3,7 +3,7 @@ import React from 'react';
 const SingleJobCart = () => {
     return (
         <div>
-            <h2>tmi amar hbe</h2>
+            <h2>Hello World ❤️</h2>
         </div>
     );
 };

@@ -1,8 +1,8 @@
 import React from 'react';
-import { BeakerIcon,MapPinIcon ,CurrencyDollarIcon} from '@heroicons/react/24/solid'
-import { Link, useNavigate } from 'react-router-dom';
+import { MapPinIcon ,CurrencyDollarIcon} from '@heroicons/react/24/solid'
+import { useNavigate } from 'react-router-dom';
 
-const FeatureJob = ({job,handlerViewDetails}) => {
+const FeatureJob = ({job}) => {
     const navigate=useNavigate();
 
     const{ComName,ComImg,jobTitle,jobCategoryTimes,jobCategoryTime,location,salary,addrs,id}=job
