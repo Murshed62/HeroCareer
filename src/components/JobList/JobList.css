@@ -1,0 +1,25 @@
+.card-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    margin-top: 32px;
+    
+}
+.single-card{
+    padding: 20px 0px 20px 10px;
+    height: 40vh;
+    position: relative;
+}
+.location h6{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.salary h6{
+    font-size: 14px;
+}
+.view-details{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+}
