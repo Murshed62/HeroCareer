@@ -9,4 +9,4 @@
 - Blog Component create and card design and Question and answer show card . 
 
 # Live link:
-- 
+- https://gregarious-pony-a3e533.netlify.app/home
