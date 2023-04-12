@@ -5,7 +5,7 @@ const Blog = () => {
     <div className="flex  gap-5 mt-20">
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">When the Context API is used ?</h2>
+          <h2 className="card-title bg-indigo-600 text-white p-2">When the Context API is used ?</h2>
           <p>
             Here are some situations where I might want to use the Context API:
             Theming: If I want to allow users to customize the look and feel of
@@ -26,13 +26,13 @@ const Blog = () => {
       </div>
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">what is custom hook in react ? </h2>
+          <h2 className="card-title bg-indigo-600 text-white p-2">what is custom hook in react ? </h2>
           <p>A custom hook is a JavaScript function that uses one or more of the existing React hooks to encapsulate a particular piece of functionality, making it reusable across multiple components. Custom hooks are a way to abstract away complex logic into a reusable function, which can then be imported and used just like any other hook in React.</p>
         </div>
       </div>
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="card-title bg-indigo-600 text-white p-2">
             What is useRef and what is it used for?
           </h2>
           <p>useRef is a hook in React that provides a way to store mutable values or references to DOM elements. It returns a mutable ref object that can be used to persist data across component renders without triggering a re-render.</p>
@@ -44,11 +44,11 @@ const Blog = () => {
       </div>
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="card-title bg-indigo-600 text-white p-2">
             What is useMemo and what is it used for?
-            <p>useMemo is a hook in React that allows you to optimize the performance of your application by memoizing the results of a function call. It takes two arguments: a function and an array of dependencies. The function is called every time the component renders, but the result is only recalculated if one of the dependencies has changed.</p>
-            <p>Using useMemo can improve the performance of your application by reducing the number of times expensive computations are executed. However, it's important to use useMemo judiciously, since memoizing values unnecessarily can also lead to wasted memory and increased complexity.</p>
           </h2>
+          <p>useMemo is a hook in React that allows you to optimize the performance of your application by memoizing the results of a function call. It takes two arguments: a function and an array of dependencies. The function is called every time the component renders, but the result is only recalculated if one of the dependencies has changed. <br /> Using useMemo can improve the performance of your application by reducing the number of times expensive computations are executed. However, it's important to use useMemo judiciously, since memoizing values unnecessarily can also lead to wasted memory and increased complexity.</p>
+          
         </div>
       </div>
     </div>
