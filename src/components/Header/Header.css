@@ -1,0 +1,28 @@
+.nav-link {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    color: #ffff;
+    
+  }
+  @media (max-width: 768px) {
+    .res-design-logo{
+        width: 55%;
+        margin: auto;
+    }
+    .nav-link{
+        padding: 10px 0px;
+    }
+      }
+  
